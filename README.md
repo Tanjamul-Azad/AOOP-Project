@@ -2,6 +2,10 @@
 
 This repository contains the Entity classes and Repository interfaces for the SkillEX project based on the EER diagram.
 
+## EER Diagram
+
+![SkillEX EER Diagram](docs/EER-diagram.png)
+
 ## Assignment Scope
 
 - Entity classes are inside `src/main/java/com/cse/project/entity`
