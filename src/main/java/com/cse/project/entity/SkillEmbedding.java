@@ -7,7 +7,11 @@ import java.time.LocalDateTime;
 public class SkillEmbedding {
 
     @Id
+    @Column(name = "skill_id")
+    private String skillId;
+
     @OneToOne
+    @MapsId
     @JoinColumn(name = "skill_id")
     private Skill skill;
 
